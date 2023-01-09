@@ -1,5 +1,5 @@
 # Creditcard Fraud Detector
-This repository contains a Python class. This class includes methods for detecting changepoints in time series data and visualizing these changepoints using the CUSUM, BOCP, and Robust Statistic methods. It also includes a 'read_data' function for reading and processing data files and a 'changepoint_detection' function for detecting changepoints.
+This is a piece of Python code used to train and compare two machine learning models using a Credit Card Fraud Dataset. Firstly, the data file is read and the fraud ratio is visualized. Then, the data set is divided into training, validation, and test sets. Two different machine learning models (Random Forest and Gradient Boosting) are then trained using the training data set. Afterwards, the predictions of these models on the validation data set are compared and the confusion matrices for these predictions are visualized. Finally, the ROC curves and precision-recall curves of these models are visualized and the AUC (Area Under the Curve) values between these curves are compared.
 
 # Requirements
 To run this project, you will need to have the following software requirements:
