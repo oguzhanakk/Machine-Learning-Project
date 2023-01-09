@@ -1,13 +1,8 @@
 # Machine-Learning-Projects
-This repository contains a Python class. This class includes methods for detecting changepoints in time series data and visualizing these changepoints using the CUSUM, BOCP, and Robust Statistic methods. It also includes a 'read_data' function for reading and processing data files and a 'changepoint_detection' function for detecting changepoints.
+This repository contains a Machine learning project.
 
 # Requirements
 To run this project, you will need to have the following software requirements:
-
-• scrapy
-• sqlite3
-• pandas
-• itemadapter
 
 # Setup
 To run this project on your own computer, follow these steps:
