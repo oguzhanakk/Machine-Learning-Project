@@ -187,5 +187,4 @@ class autogluon:
         _ = plt.legend()
         
         plt.savefig('autogluon_prediction_results.png')
-        
     
