@@ -14,7 +14,7 @@ def main():
     sessions = sessions.resample("60T").sum()
     sessions.fillna(0, inplace=True)
 
-    print(sessions.dtypes)
+    print(sessions.dtypes) 
     result = seasonal_decompose(sessions, model='additive', period=48)
     result.plot()
     pyplot.show()
