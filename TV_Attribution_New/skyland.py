@@ -31,6 +31,5 @@ def main():
     sessions["New Date"] = sessions.index.date
     sessions.to_excel("selpak_trend_30.xlsx")
 
-
 if __name__ == "__main__":
    main()
